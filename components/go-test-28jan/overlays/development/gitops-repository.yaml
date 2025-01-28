@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: go-test-28jan-gitops-repository
+spec:
+  url: https://github.com/RHTAP-RHDH/go-28jan-test-gitops
